@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
+    <title>My Fundraising Journey</title>
+    <!-- Link to external CSS file (if you have one) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add a favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with Navigation Menu -->
+    <header>
+        <h1>Welcome to My Fundraising Journey</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
     <main>
-        <h1>Welcome to My Website</h1>  
+        <!-- Introduction Section -->
+        <section id="intro">
+            <h2>About My Fundraising Efforts</h2>
+            <p>Hello and welcome! I am on a mission to raise funds for a cause that's close to my heart. Join me in making a difference. Learn more about my story and how you can help.</p>
+        </section>
+
+        <!-- Progress Tracker Section -->
+        <section id="progress">
+            <h2>Fundraising Progress</h2>
+            <p>We've raised $X out of $Y! Thank you to all our supporters for their generosity.</p>
+            <!-- Placeholder for a progress bar or chart -->
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;">60%</div>
+            </div>
+        </section>
+
+        <!-- Donation Call-to-Action Section -->
+        <section id="donate">
+            <h2>How to Donate</h2>
+            <p>Your support means the world to us. Click the button below to contribute to our cause!</p>
+            <button onclick="window.location.href='https://your-donation-link.com'">Donate Now</button>
+        </section>
     </main>
-    <script src="index.js"></script>
-  </body>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Fundraising Journey. All rights reserved. | Follow us on <a href="#">Social Media</a></p>
+    </footer>
+
+    <!-- Link to external JavaScript file (if you have one) -->
+    <script src="script.js"></script>
+</body>
 </html>
+
